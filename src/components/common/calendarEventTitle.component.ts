@@ -8,7 +8,7 @@ import { CalendarEvent } from 'calendar-utils';
       class="cal-event-title"
       href="javascript:;"
       [innerHTML]="event | calendarEventTitle:view">
-    </a>
+    check</a>
   `
 })
 export class CalendarEventTitleComponent {
